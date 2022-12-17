@@ -44,7 +44,7 @@ scheduler, users may have to resort to this or [similar](https://www.cockroachla
 Future study is needed to determine practical limits for the cpu utilization
 measurement period. Theoretically the cost of a syscall (a few usec?) should be
 the absolute lower bound. Practically speaking the jiffy interval (usually 4ms)
-interval of the kernel may result in a higher floor.
+of the kernel may result in a higher floor.
 
 Disclaimer: The above may be partially or entirely wrong. My knowledge of the
 involved components and underlaying scheduling theory is very limited and I've
